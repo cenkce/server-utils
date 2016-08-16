@@ -8,4 +8,5 @@ sudo apt-get update
 apt-cache policy docker-engine
 sudo apt-get install -y docker-engine
 sudo usermod -aG docker $(whoami)
-echo "Completed. If you receive an error, reboot and try again."
+echo ">> Completed. If you receive an error, reboot and try again."
+docker run hello-world
